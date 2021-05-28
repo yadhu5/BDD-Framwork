@@ -1,0 +1,198 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2516979200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should be techfios login page",
+            "match": {
+              "location": "LoginStepDefination.User_should_be_techfios_loginpage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12018558400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefination.before_run()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "User should able to get into the page with correct infromation",
+        "description": "",
+        "id": "user-should-able-to-access-bank-features;user-should-able-to-get-into-the-page-with-correct-infromation;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 179778700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enter the \"demo@techfios.com\" and \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "demo@techfios.com",
+                  "offset": 16
+                },
+                {
+                  "val": "abc123",
+                  "offset": 40
+                }
+              ],
+              "location": "LoginStepDefination.user_enter_the_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1677660500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on SignInbutton",
+            "match": {
+              "location": "LoginStepDefination.user_click_on_SignInbutton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 423240700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User land on the dashboard page",
+            "match": {
+              "location": "LoginStepDefination.user_land_on_the_dashboard_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 51336100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User click on Bank and Cash",
+            "match": {
+              "location": "LoginStepDefination.user_click_on_Bank_and_Cash()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12351485100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User click on Add New Account",
+            "match": {
+              "location": "LoginStepDefination.user_click_on_Add_New_Account()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1049311700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enter the information \"Checking\" and \"join account\" and \"250000\" and \"15484545\" and \"817-558-5555\" and \"800-585-5555\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Checking",
+                  "offset": 28
+                },
+                {
+                  "val": "join account",
+                  "offset": 43
+                },
+                {
+                  "val": "250000",
+                  "offset": 62
+                },
+                {
+                  "val": "15484545",
+                  "offset": 75
+                },
+                {
+                  "val": "817-558-5555",
+                  "offset": 90
+                },
+                {
+                  "val": "800-585-5555",
+                  "offset": 109
+                }
+              ],
+              "location": "LoginStepDefination.user_enter_the_information_and_and_and_and_and(String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1087373900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User click on submit button",
+            "match": {
+              "location": "LoginStepDefination.User_click_on_submit_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@AddBankInformation"
+          }
+        ]
+      }
+    ],
+    "name": "User should able to access bank features",
+    "description": "",
+    "id": "user-should-able-to-access-bank-features",
+    "keyword": "Feature",
+    "uri": "features/AddBank.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@AddBankInformation"
+      }
+    ]
+  }
+]
